@@ -1,0 +1,4 @@
+FROM alpine:3.3
+MAINTAINER Sven Hartmann <svha0004@stud.hs-kl.de>
+RUN apk update
+RUN apk upgrade
