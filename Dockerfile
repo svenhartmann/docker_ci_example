@@ -4,3 +4,4 @@ RUN apk update
 RUN apk upgrade
 RUN addgroup ci_user && adduser -s /bin/bash -D -G ci_user ci_user
 USER ci_user
+RUN whoami
